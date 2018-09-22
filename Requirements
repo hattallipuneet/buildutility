@@ -8,12 +8,38 @@ Basic Requirements
     Note: For now the set of properties will be hard coded in GUI. No funcitionality to create dynamic properties.
   1.3 Edit a properties file. [PUT]
     This will allow user to modify the properties. 
-    Note: For now all properties can edited.
+    Note: For now all properties can be edited.
   1.4 Create gradle commands. [POST]
   1.5 Copy files from one location to another. [POST]
     Copy the build component to intended location.
+    Replace the properties file
     Note: The paths will be hard coded for now.
   1.6 Execute the gradle commands using the nodeJs libraries.
   1.7 API to start and stop the server.
   1.8 API to check status of app deployment
     Note: This is as simple as checking if the app is deployed and index page is accessible.
+ 
+2. GUI
+  2.1 Screen with tab/buttons to navigate to :
+    - Properties Screen.
+      Buttons/Tabs for -
+        Create
+        Edit 
+        Delete
+        Clone [Enhancement Feature]
+    - Utilities.
+      - Copy file Options.
+    - Build Options Screen.
+      Buttons/Tabs for 
+        Gradle
+          Create
+          Delete
+          Update
+          Clone
+          Execute
+        Maven
+          Create
+          Delete
+          Update
+          Clone
+          Execute
